@@ -3,488 +3,498 @@ const test = [
     idx: 'I',
     questions: [
       {
-        q: "At the concert, you can get food and drink for __________. You don't have to pay money for it.",
-        o: ['reuse', 'free', 'recycle', 'charity'],
+        "q": ["months", "walks", "protects", "plays"],
+        "o": [5, 4, 7, 4]
       },
       {
-        q: "__________ in this lake. It's very deep and dangerous.",
-        o: ['Swim', 'Swimming', "Don't swim", 'You can swim'],
+        "q": ["parks", "watches", "dishes", "boxes"],
+        "o": [4, 5, 4, 3]
       },
       {
-        q: 'Pick up trash is a great way to __________ the environment.',
-        o: ['protect', 'reuse', 'charity', 'wildlife'],
+        "q": ["students", "classes", "books", "laughs"],
+        "o": [7, 5, 4, 5]
       },
       {
-        q: 'Tom __________ his bottle water and refills it with water every morning.',
-        o: ['reuses', 'reduces', 'recycles', 'remembers'],
+        "q": ["bottles", "gardens", "forests", "papers"],
+        "o": [5, 6, 6, 5]
       },
       {
-        q: "Tom is trying to park his car but __________ space isn't big enough",
-        o: ['any', 'a', 'the', 'an'],
+        "q": ["houses", "computers", "gardens", "cleans"],
+        "o": [4, 8, 6, 5]
       },
       {
-        q: "Empty cans, cardboard boxes, and bottles should be recycled. Don't __________ those.",
-        o: ['offer', 'pickup', 'remove', 'throw away'],
+        "q": ["know", "now", "slow", "ago"],
+        "o": [2, 1, 2, 2]
       },
       {
-        q: "There's __________ new girl in our class. __________ girl's brother is in Dan's class",
-        o: ['a/ The', 'the/ The', 'a/ a', 'the/ A'],
+        "q": ["comedy", "phone", "cold", "window"],
+        "o": [1, 2, 1, 4]
       },
       {
-        q: "Ken's tennis club is __________ to a big supermarket.",
-        o: ['near', 'close', 'between', 'across'],
+        "q": ["hotel", "tomorrow", "money", "pillow"],
+        "o": [1, 6, 1, 4]
       },
       {
-        q: "William can't watch __________ movies. He thinks they're too scary and he always has bad dreams after watching them.",
-        o: ['comedy', 'action', 'horror', 'drama'],
+        "q": ["throw", "know", "donate", "protect"],
+        "o": [3, 2, 1, 2]
       },
       {
-        q: 'My friends, Susie and Mike, __________in London last weekend.',
-        o: ['was', 'were', 'are', 'is'],
-      },
-      {
-        q: "We're having a big party __________ Christmas Eve.",
-        o: ['on', 'at', 'in', 'of'],
-      },
-      {
-        q: 'Justice League is a __________ movie where heroes use superpower to protect the planet from monsters.',
-        o: ['comedy', 'drama', 'funny', 'science fiction'],
-      },
-      {
-        q: 'We often go out __________ Friday evenings and come back home at 11 __________ night.',
-        o: ['on/ at', 'on/ in', 'in/ at', 'at/ in'],
-      },
-      {
-        q: "Jane's brother became a __________ when he joined the army last year.",
-        o: ['waiter', 'actor', 'student', 'soldier'],
-      },
-      {
-        q: 'Trưng Trắc and Trưng Nhị were Vietnamese great female __________.',
-        o: ['armies', 'invaders', 'generals', 'soldier'],
-      },
-      {
-        q: 'I __________ to make an omelet this morning but is __________ horrible.',
-        o: ['try/ was', 'try/ is', 'tried/ is', 'tried/ was'],
-      },
-      {
-        q: 'We can read and borrow books in a __________.',
-        o: ['hospital', 'library', 'post office', 'bus station'],
-      },
-      {
-        q: 'I __________ bottles in my garden and grow planets in them.',
-        o: ['reuse', 'recycle', 'throw away', 'buy'],
-      },
-      {
-        q: 'The movie was so __________ that I cried at the end.',
-        o: ['awful', 'sad', 'fantastic', 'terrible'],
-      },
-      {
-        q: 'Hospital, library and police station are community __________.',
-        o: ['charity', 'activities', 'funds', 'services'],
-      },
-      {
-        q: 'We have to __________ our rain forests.',
-        o: ['cut down', 'donate', 'protect', 'reuse'],
-      },
-      {
-        q: '__________ trash in the park.',
-        o: ["Don't pick away", 'Pick up', 'Pick into', 'Picks up'],
-      },
-      {
-        q: 'Speaker 1: "How can we protect the Earth?" \n Speaker 2: "____________________"',
-        o: [
-          'Use plastic bags',
-          'Throw away trash',
-          'Recycle papers',
-          'Waste water',
-        ],
-      },
-      {
-        q: 'Student A: "Do you want to see a movie on Sunday?" \n Student B: "____________________"',
-        o: ['Yes, I will', 'Sounds great', 'Yes, you can', "I didn't see it"],
-      },
-      {
-        q: 'You can catch a bus at the  __________.',
-        o: ['train station', 'police station', 'hospital', 'bus station'],
-      },
-      {
-        q: 'My birthday is __________ the summer, __________ 8th July.',
-        o: ['on/ on', 'in/ on', 'at/ in', 'in /at'],
-      },
-      {
-        q: 'The hospital is __________ the mall.',
-        o: ['next', 'between', 'across from', 'in front to'],
-      },
-      {
-        q: "You should recycle empty cans and bottles. Don't just __________.",
-        o: ['throw it', 'reuse them', 'throw them away', 'donate it'],
-      },
-      {
-        q: 'I want __________ to buy some winter clothes.',
-        o: [
-          'go shopping',
-          'to go shopping',
-          'to go shopping',
-          'going shopping',
-        ],
-      },
-      {
-        q: 'Student 1: "Excuses me, is there __________ supermarket near here?" \n Student 2: "Yes, __________ supermarket is on King Street, next to the police station"',
-        o: ['the/ the', 'the/ a', 'a/ a', 'a/ the'],
-      },
-      {
-        q: 'My uncle and aunt live in __________ small town in __________ United States.',
-        o: ['a/ a', 'a/ the', 'the/ the', 'a/ ø'],
-      },
-      {
-        q: "You can send your old books to __________. It's one of the good ways to reuse them.",
-        o: ['creation', 'classrooms', 'container', 'charity'],
-      },
-      {
-        q: 'Which of following cannot be recycled?  ____________________.',
-        o: ['Milk cartons', 'Glass bottles', 'Cans', 'Plastic bags'],
-      },
-      {
-        q: 'Mr. Simon is going to __________ $1000 for the charity.',
-        o: ['carry', 'pick up', 'donate', 'buy'],
-      },
-      {
-        q: 'I eat __________ home with my family.',
-        o: ['at', 'in', 'on', 'beside'],
-      },
-      {
-        q: 'Student A: "I think recycling paper is important?" \n Student B: "____________________"',
-        o: ['Yes, it was', 'I agree', "No, I don't think", 'Yes, you can'],
-      },
-      {
-        q: "We've got __________ nice red apples.",
-        o: ['some', 'any', 'much', 'a'],
-      },
-      {
-        q: 'I watched Picture Day __________.',
-        o: ['today', 'yesterday', 'tomorrow', 'now'],
-      },
+        "q": ["forest", "window", "soldier", "hotel"],
+        "o": [1, 4, 1, 1]
+      }
     ],
   },
   {
     idx: 'II',
     questions: [
       {
-        q: 'Where __________ you yesterday?',
-        o: 'be',
+        "q": ["charity", "newspaper", "recycle", "hospital"]
       },
       {
-        q: '__________ down trees in the forest.',
-        o: 'Not cut',
+        "q": ["amazing", "animated", "musical", "terrible"]
       },
       {
-        q: 'You can __________ the glass bottles and jars.',
-        o: 'reuse',
+        "q": ["soldier", "horror", "author", "dislike"]
       },
       {
-        q: '__________ there a hospital near here?',
-        o: 'Be',
+        "q": ["mystery", "adventure", "comedy", "character"]
       },
       {
-        q: 'Every year, my mother __________ old clothes to the charity.',
-        o: 'donate',
+        "q": ["reuse", "bottle", "station", "donate"]
       },
       {
-        q: '__________ old clothes away.',
-        o: 'Not throw',
+        "q": ["awful", "boring", "become", "funny"]
       },
       {
-        q: 'My computer __________ broken yesterday.',
-        o: 'be',
+        "q": ["library", "station", "extra", "police"]
       },
       {
-        q: '__________ there a pool at the hotel?',
-        o: 'Be',
+        "q": ["medium", "invader", "customer", "soldier"]
       },
       {
-        q: "We shouldn't __________ glass jars away.",
-        o: 'throw',
+        "q": ["funny", "terrible", "horror", "excited"]
       },
       {
-        q: 'People should __________ noise.',
-        o: 'reduce',
-      },
-      {
-        q: 'The bookstore __________ opposite the bus station.',
-        o: 'be',
-      },
-      {
-        q: 'He __________ an animated movie tonight.',
-        o: 'watch',
-      },
-      {
-        q: 'My father __________ action movies.',
-        o: 'not always like',
-      },
-      {
-        q: 'My brother __________ at school yesterday because he was sick.',
-        o: 'not be',
-      },
-      {
-        q: '__________ your friend at your house last weekend?',
-        o: 'Be',
-      },
-      {
-        q: 'They __________ excited about the film last night.',
-        o: 'not be',
-      },
-      {
-        q: '__________ the plastic bags because you can reuse them.',
-        o: 'Not throw',
-      },
-      {
-        q: '__________ there any good movies on last week?',
-        o: 'Be',
-      },
-      {
-        q: 'Sally May always __________ trash on the beach when she sees it.',
-        o: 'pick up',
-      },
-      {
-        q: 'My brother __________ glass jars to store food, like jam and nuts.',
-        o: 'reuse',
-      },
+        "q": ["winner", "against", "comedy", "battle"]
+      }
     ],
   },
   {
     idx: 'III',
     questions: [
       {
-        q: 'It is a very __________ movie with lots of laughter and the endings is hilarious.',
-        o: 'fun',
+        "q": "There’s __________ new girl in our class. __________ girl’s brother is in Dan’s class.",
+        "o": ["a / The ", "the / The", "a / A", "the / A"]
       },
       {
-        q: 'My dad usually __________ newspapers by using them to wrap things.',
-        o: 'recycling',
+        "q": "We should bring ______________ too because we’ll be thirsty.",
+        "o": ["pillow", "first aid kit", "bottled water", "camera"]
       },
       {
-        q: 'Trees are very __________. They give food to people and animals.',
-        o: 'use',
+        "q": "We can donate food ______________ poor patients in hospitals.",
+        "o": ["in", "about", "to", "into"]
       },
       {
-        q: 'The charity raised $30,000 from various __________ all over the world.',
-        o: 'donate',
+        "q": "I’m going to see a movie __________ Sunday __________ 6 p.m.",
+        "o": ["in / at", "on / at", "on / in", "at / on"]
       },
       {
-        q: 'I pick up trash in the park. I do it for __________.',
-        o: 'freedom',
+        "q": "That restaurant was really ______________. I’m never going back there again.",
+        "o": ["interesting", "wonderful", "fantastic", "terrible"]
       },
       {
-        q: 'I often spend my leisure time on watching __________ movies because I am fascinated by characters that are so lively and like real people.',
-        o: 'animation',
+        "q": "You can ______________ old things to protect the environment.",
+        "o": ["clean", "recycle", "buy", "take"]
       },
       {
-        q: 'My father is a __________.',
-        o: 'police',
+        "q": "I would like ______________ sightseeing at Nha Trang.",
+        "o": ["go", "to go", "watch", "to watch"]
       },
       {
-        q: 'What type of community __________ do you have in your area?',
-        o: 'serve',
+        "q": "Why don’t we reuse bottles of water? – ______________",
+        "o": ["Yes, we do.", "No, we don’t.", "I can’t.", "That’s a good idea."]
       },
       {
-        q: "People are cutting down the Amazon rainforest. It is getting smaller every year. This's terrible! We have to __________ our rainforests.",
-        o: 'protection',
+        "q": "He cannot ______________ his mom.",
+        "o": ["bringing", "bring", "call", "to call"]
       },
       {
-        q: "I didn't love the drama I watched on television last night because it was so __________.",
-        o: 'bore',
+        "q": "She likes a (an) ______________ movie because it makes her laugh a lot.",
+        "o": ["drama", "action", "horror", "comedy"]
       },
       {
-        q: 'The action movies often attract viewers because they are so __________.',
-        o: 'excitement',
+        "q": "On 23 January 1996, Munis Bansal ______________ a photo of his baby daughter Suman.",
+        "o": ["took", "changed", "grew", "collected"]
       },
       {
-        q: 'Act Green Vietnam is an __________ charity in HCM city.',
-        o: 'environment',
+        "q": "We weren’t interested ______________ the story.",
+        "o": ["on", "in", "for", "about"]
       },
       {
-        q: 'Our school has many __________ programs for students to join.',
-        o: 'charities',
+        "q": "There aren’t ______________ vegetables in this dish.",
+        "o": ["a lot of", "any", "A", "much"]
       },
       {
-        q: 'My sister is not into horror movies because she feels that they are __________.',
-        o: 'scare',
+        "q": "They ______________ all of the photos and made one big picture from them.",
+        "o": ["collect", "collecting", "collects", "collected"]
       },
       {
-        q: 'Environmental pollution causes __________ warming.',
-        o: 'globe',
+        "q": "When he was young, he has ______________ dark brown hair.",
+        "o": ["long", "square", "slim", "beard"]
       },
       {
-        q: 'The students at our school are __________ clothes ad stationary to poor children in the flooded provinces.',
-        o: 'donate',
+        "q": "______________ a lot of sweets or unhealthy snacks.",
+        "o": ["Eat", "Eating", "Don’t eat", "Don’t to eat"]
       },
       {
-        q: 'Discovery channel attracts millions of __________ around the world.',
-        o: 'view',
+        "q": "If we don’t leave soon, we ______________ late.",
+        "o": ["are", "will are", "be", "will be"]
       },
       {
-        q: 'I cried a lot because of the __________ ending of the film that I watched from my personal computer yesterday.',
-        o: 'sadness',
+        "q": "She grew ______________ in the village in the North of Vietnam.",
+        "o": ["up", "on", "to", "for"]
       },
       {
-        q: 'Both his parents died when he was six; it was __________.',
-        o: 'terribly',
+        "q": "Put on your sweater. It’s very ______________ today.",
+        "o": ["cold", "warm", "sunny", "hot"]
       },
       {
-        q: 'My brother likes action movies because they are fast and __________.',
-        o: 'excite',
+        "q": "The first ______________ system in the world is The London Underground.",
+        "o": ["ferry", "bus", "subway", "cable car"]
       },
+      {
+        "q": "______________ are you going to stay in Ha Noi? – At a hotel.",
+        "o": ["When", "Who", "Which", "Where"]
+      },
+      {
+        "q": "I often have an ______________ with some bread for breakfast.",
+        "o": ["cucumber", "juice", "snacks", "egg"]
+      },
+      {
+        "q": "A person who acts in plays, films or TV programmer is called ______________.",
+        "o": ["singer", "musician", "actor", "doctor"]
+      },
+      {
+        "q": "Burgers are tasty ______________ they are unhealthy.",
+        "o": ["but", "not", "and", "because"]
+      },
+      {
+        "q": "Ha Long is famous ______________ its scenic rock formations.",
+        "o": ["to", "with", "for", "by"]
+      },
+      {
+        "q": "How many ______________ do you eat every week?",
+        "o": ["cheese", "milk", "butter", "eggs"]
+      },
+      {
+        "q": "Let’s ______________ some pizza and chicken for our picnic.",
+        "o": ["explore", "Talk", "visit", "bring"]
+      },
+      {
+        "q": "Nam and Nga ______________ their homework tonight.",
+        "o": ["are going to do", "are do", "do", "did"]
+      },
+      {
+        "q": "I’m thirsty. Can I have some ______________, please?",
+        "o": ["salad", "water", "pasta", "noodles"]
+      },
+      {
+        "q": "A ______________ helps you cross a river.",
+        "o": ["car", "bike", "ferry", "truck"]
+      },
+      {
+        "q": "Patrick wasn’t at the library ______________ Saturday.",
+        "o": ["in", "to", "on", "of"]
+      },
+      {
+        "q": "I need to go to the ______________ to send these letters to my grandparents.",
+        "o": ["library", "police station", "supermarket", "post office"]
+      },
+      {
+        "q": "There aren’t ______________ beans in this meal.",
+        "o": ["some", "any", "a", "an"]
+      },
+      {
+        "q": "A: ______________ is the best way to get there? – B: You can go by boat or plane.",
+        "o": ["How", "What", "Where", "When"]
+      },
+      {
+        "q": "I don’t like going ______________. I’m scared of traveling down a river in a rubber boat.",
+        "o": ["hiking", "rafting", "trekking", "swimming"]
+      },
+      {
+        "q": "Ha Long bay is recognized as one of the most beautiful ______________ wonders in the world.",
+        "o": ["nature", "natural", "good", "better"]
+      },
+      {
+        "q": "Minions is a/an ______________ movie. The characters are drawings, not real people.",
+        "o": ["animated", "science fiction", "drama", "action"]
+      },
+      {
+        "q": "Is there ______________ water in the glass?",
+        "o": ["any", "some", "many", "lots of"]
+      },
+      {
+        "q": "We should go to Misty Canyon ______________ car. It takes three hours.",
+        "o": ["by", "on", "in", "at"]
+      },
+      {
+        "q": "Last year, I visited Buckingham ______________. Queen Elizabeth and the royal family live there sometimes.",
+        "o": ["Palace", "Tower", "Park", "Museum"]
+      },
+      {
+        "q": "The ______________ of King Leonidas of Sparta in Greece is bigger and taller than a real man.",
+        "o": ["tower", "bridge", "statue", "museum"]
+      },
+      {
+        "q": "Disneyland is one of the biggest ______________ in the USA. It’s full of magic, roller coasters and entertainment for all ages.",
+        "o": ["museums", "amusement parks", "shopping malls", "buildings"]
+      },
+      {
+        "q": "The weather here is ______________ than in my hometown. It’s too cold here.",
+        "o": ["worse", "better", "worst", "best"]
+      },
+      {
+        "q": "The Dragon ______________ is one of the most popular tourist attractions in Da Nang. It is 666m long and crosses the Han river.",
+        "o": ["statue", "bridge", "tower", "park"]
+      },
+      {
+        "q": "I think the British Museum is ______________ museum in London.",
+        "o": ["the more popular", "more popular", "popular", "the most popular"]
+      },
+      {
+        "q": "A ______________ is a group that gives money, food or help to people who need it.",
+        "o": ["country", "store", "charity", "center"]
+      },
+      {
+        "q": "Ha Long ______________ is a UNESCO World Heritage Site. It’s in the north of Vietnam.",
+        "o": ["forest", "bay", "mountain", "beach"]
+      },
+      {
+        "q": "Trưng Trắc and Trưng Nhị were Vietnamese great female ______________.",
+        "o": ["armies", "invaders", "generals", "soldier"]
+      },
+      {
+        "q": "You should visit Prenn _________ in Lâm Đồng. It’s wonderful to see water fall from a high place.",
+        "o": ["cave", "waterfall", "beach", "island"]
+      },
+      {
+        "q": "You need to bring a jacket ______________ you don’t get cold.",
+        "o": ["so", "because", "and", "but"]
+      }
     ],
   },
   {
     idx: 'IV',
     questions: [
       {
-        q: 'They are good students.',
-        o: 'The',
+        "q": "Where __________ you _____________ when you were a child?",
+        "o": "live"
       },
       {
-        q: "It's a nice policeman.",
-        o: 'The',
+        "q": "Hurry up or we __________________ without you.",
+        "o": "go"
       },
       {
-        q: 'The lady is old.',
-        o: "It's",
+        "q": "Would you like _______________ dinner at my house tonight?",
+        "o": "have"
       },
       {
-        q: 'The movie is amazing.',
-        o: "It's",
+        "q": "Hurry up! We _______________ for you.",
+        "o": "wait"
       },
       {
-        q: 'My house is next to a library.',
-        o: 'There',
+        "q": "We _______________ around six tomorrow.",
+        "o": "arrive"
       },
       {
-        q: 'The library is to the left of the supermarket and the bus station is to the right of the supermarket.',
-        o: 'The supermarket is',
+        "q": "What _________ Lan and Hoa _________ now?",
+        "o": "do"
       },
       {
-        q: 'Is the library behind the supermarket?',
-        o: 'Is the supermarket',
+        "q": "They __________________ books in the library.",
+        "o": "read"
       },
       {
-        q: 'Is there a park behind your house?',
-        o: 'Is your house',
+        "q": "The light turns green so you can _______________ straight ahead.",
+        "o": "go"
       },
       {
-        q: 'My house is opposite the library.',
-        o: 'There',
+        "q": "You work too much. You should _______________.",
+        "o": "relax"
       },
       {
-        q: 'The bus station is to the left of the police station and the market is to the right of the police station.',
-        o: 'The police station',
+        "q": "My father ____________________ beer very often.",
+        "o": "not drink"
       },
       {
-        q: 'The shoe store is to the right of the post office.',
-        o: 'The post office',
+        "q": "Where is Nam? – He ______________ on the couch watching TV.",
+        "o": "lie"
       },
       {
-        q: 'The post office is to the left of the library and the train station is to the right of the library.',
-        o: 'The library',
+        "q": "My football team needs some more players, why don’t you ___________ us?",
+        "o": "join"
       },
       {
-        q: "It's necessary for you to drink plenty of water every day.",
-        o: 'You',
+        "q": "I _______________ them at the movie theater last night.",
+        "o": "meet"
       },
       {
-        q: "It's a good idea to have a guidebook before you visit a city.",
-        o: 'You',
+        "q": "I hope you ________________ better soon.",
+        "o": "feel"
       },
       {
-        q: 'Protect the environment by recycling paper and plastic.',
-        o: 'Recycle',
+        "q": "When my brother and I __________ small, we ___________ swimming every weekend.",
+        "o": "be / go"
       },
       {
-        q: "It's not good for you to go hiking today.",
-        o: 'Do',
+        "q": "School _______________ at 4.30 p.m every day.",
+        "o": "finish"
       },
       {
-        q: "It's not good for you to go hiking today.",
-        o: 'You',
+        "q": "_______________ there any flowers in her garden?",
+        "o": "be"
       },
       {
-        q: "It's necessary for you to put plastic bottles into the recycling bin.",
-        o: 'You',
+        "q": "Children should _______________ up late.",
+        "o": "not stay"
       },
       {
-        q: "It's necessary for you to put plastic bottles into the recycling bin.",
-        o: 'Please',
+        "q": "Mr. Nam _______________ in my school three years ago.",
+        "o": "teach"
       },
       {
-        q: 'Make our Earth greener by planting many trees.',
-        o: '______________________________to make',
+        "q": "The earth _______________ around the sun.",
+        "o": "go"
       },
       {
-        q: "It's not good idea to go diving alone because it's quite dangerous.",
-        o: 'Do',
+        "q": "I bought the ticket yesterday. I _________________ to Japan tomorrow.",
+        "o": "fly"
       },
       {
-        q: 'Help poor people by donating old clothes to the charity.',
-        o: 'Donate',
+        "q": "In the future, smart technology _______________ everywhere.",
+        "o": "be"
       },
       {
-        q: "It's not a good idea to eat too much fast food.",
-        o: 'Do',
+        "q": "She needs _______________ a lot of vegetables and fruit.",
+        "o": "eat"
       },
       {
-        q: 'Reuse glass jars and plastic bottles.',
-        o: "Don't",
+        "q": "Jasmine __________________ to the meeting yesterday.",
+        "o": "not come"
       },
       {
-        q: 'Remember to do your homework.',
-        o: "Don't",
+        "q": "My father _______________ really healthy. He never _______________ medicine.",
+        "o": "be / take"
       },
       {
-        q: 'Go to bed early.',
-        o: "Don't",
+        "q": "There _______________ nobody there when I __________________ last night.",
+        "o": "be / arrive"
       },
       {
-        q: 'Go to bed early.',
-        o: 'You',
+        "q": "Nga doesn’t like __________________ sports. She prefers to take part in them.",
+        "o": "watch"
       },
       {
-        q: "You shouldn't go to school late.",
-        o: "Don't",
+        "q": "How about __________________ to the beach this afternoon?",
+        "o": "go"
       },
+      {
+        "q": "___________________ too much money on your trip.",
+        "o": "Not bring"
+      },
+      {
+        "q": "If she ___________________ late again, she’ll lose her job.",
+        "o": "come"
+      },
+      {
+        "q": "If you come late, they ______________________you in.",
+        "o": "not let"
+      }
     ],
   },
   {
     idx: 'V',
     questions: [
       {
-        q: '/ me / is / train / a / Excuse / near / there / here / station / ? /',
+        "q": "Don’t throw trash away, we can ________________ some of the trash.",
+        "o": "recycling"
       },
       {
-        q: '/ bottles before / Remember to / you / wash glass / to the / send them / recycling center / . /',
+        "q": "I like _____________ TV program because I can learn about tigers, lions and lots of other animals.",
+        "o": "wild"
       },
       {
-        q: '/ the money / The local / to help / the world / charity uses / children around / poor / . /',
+        "q": "He wants to ______________ 100$ to the poor in his neighborhood.",
+        "o": "donation"
       },
       {
-        q: "/ you like / Would / to / take part in / school's / cleanup / our / ? /",
+        "q": "I always pick up trash on the beach when I see it. I _________________ the Earth!",
+        "o": "protection"
       },
       {
-        q: '/ You / can / local charity / old clothes / give / the / to / . /',
+        "q": "Do you think “Lion King” is a fantastic _______________ movie?",
+        "o": "animation"
       },
       {
-        q: '/ environment / help / Trees / the / and clean / green / to keep / . /',
+        "q": "<i>Danh tướng Yết Kiêu</i> is a interesting movie about Vietnamese ___________________.",
+        "o": "historical"
       },
       {
-        q: '/ bottles / You / should wash / before / you / them / recycle / . /',
+        "q": "This film is _______________. I don’t want to see it.",
+        "o": "bore"
       },
       {
-        q: '/ empty / to / reuse / We / glass jar / store food / . /',
+        "q": "The _____________ from the North tried to launch many attacks to Vietnam in the past.",
+        "o": "invader"
       },
       {
-        q: '/ Turn off / leaving room / before / all the lights / . /',
+        "q": "We shouldn’t go ____________ today. It’s raining very hard.",
+        "o": "hike"
       },
       {
-        q: '/ there / last week / movies on / any good / Were / ? /',
+        "q": "The Great Wall of China is one of the Seven ____________ of the world.",
+        "o": "wonderful"
+      },
+      {
+        "q": "Visitors can enjoy the ___________ beauty of Mộc Châu Highland.",
+        "o": "nature"
+      },
+      {
+        "q": "They don’t have water at the____________ so you bring bottled water.",
+        "o": "camp"
+      },
+      {
+        "q": "In the next 20 years, many homes might be smart homes with robot ______________ to do the chores.",
+        "o": "help"
+      },
+      {
+        "q": "A(n)______________ house is a house that is good for the environment.",
+        "o": "friend"
+      },
+      {
+        "q": "A_______________ is a very large city with more than ten million people living there in the future.",
+        "o": "city"
+      },
+      {
+        "q": "In some countries, people will live _____________ in earthscrapers.",
+        "o": "ground"
+      },
+      {
+        "q": "I love the _____________ life in a countryside. It’s not noisy.",
+        "o": "peace"
+      },
+      {
+        "q": "Water in that river is heavily _____________. You shouldn’t drink it.",
+        "o": "polluted"
+      },
+      {
+        "q": "China is the most ______________ country in the world with more than 1,4 billion people.",
+        "o": "populated"
+      },
+      {
+        "q": "The downtown area of Shanghai is always _____________ with hundreds of people, visitors, cars, buses, and taxis.",
+        "o": "crowded"
       },
     ],
   },
@@ -492,52 +502,120 @@ const test = [
     idx: 'VI',
     questions: [
       {
-        q: ['capital', 'invader', 'action', 'animation'],
-        o: [1, 3, 0, 0],
+        "q": "Why not wash the glass bottles to reuse them?",
+        "o": "How about"
       },
       {
-        q: ['performance', 'general', 'terrible', 'September'],
-        o: [1, 1, 1, 1],
+        "q": "It’s not a good idea for you to buy this expensive book.",
+        "o": "You"
       },
       {
-        q: ['they', 'there', 'these', 'three'],
-        o: [0, 0, 0, 0],
+        "q": "My house is behind a library.",
+        "o": "There"
       },
       {
-        q: ['tigers', 'elephants', 'magazines', 'cans'],
-        o: [5, 8, 8, 3],
+        "q": "It’s a good idea to learn a few English words before traveling abroad.",
+        "o": "You"
       },
       {
-        q: ['books', 'dogs', 'cats', 'maps'],
-        o: [4, 3, 3, 3],
+        "q": "Save the electricity by turning off the lights before leaving the room.",
+        "o": "Turn"
       },
       {
-        q: ['houses', 'faces', 'names', 'places'],
-        o: [4, 3, 3, 4],
+        "q": "From my house, you will see the library on the other side of the street.",
+        "o": "The library is"
       },
       {
-        q: ['nights', 'days', 'years', 'weekends'],
-        o: [5, 3, 4, 7],
+        "q": "Remember to bring bottled water.",
+        "o": "Don’t"
       },
       {
-        q: ['pens', 'books', 'phones', 'tables'],
-        o: [3, 4, 5, 5],
+        "q": "Help the community by donating money.",
+        "o": "Donate money so"
       },
       {
-        q: ['communities', 'reuses', 'foxes', 'beaches'],
-        o: [9, 4, 3, 5],
+        "q": "Is there a market to the left of your house?",
+        "o": "Is your house"
       },
       {
-        q: ['events', 'reduces', 'donates', 'protects'],
-        o: [5, 6, 6, 7],
+        "q": "It’s not a good idea to go out alone at night because it’s unsafe.",
+        "o": "Don’t"
       },
       {
-        q: ['bottles', 'stations', 'gardens', 'events'],
-        o: [6, 7, 6, 5],
+        "q": "Let’s join in the school clean-up.",
+        "o": "What"
       },
       {
-        q: ['services', 'trashes', 'resources', 'stories'],
-        o: [6, 5, 7, 5],
+        "q": "Why don’t we have a barbecue on Sunday?",
+        "o": "I suggest"
+      },
+      {
+        "q": "I think Chinese is more difficult than English.",
+        "o": "I think English"
+      },
+      {
+        "q": "The other people in the team are much older than Alice.",
+        "o": "Alice is"
+      },
+      {
+        "q": "The blue book is cheaper than the red one.",
+        "o": "The red"
+      },
+      {
+        "q": "The story was really exciting.",
+        "o": "It was"
+      },
+      {
+        "q": "John thinks we should buy some popcorn before entering the movie theater.",
+        "o": "John suggests"
+      },
+      {
+        "q": "You need to wear sunglasses to protect your eyes from the sun.",
+        "o": "You need to wear sunglasses so"
+      },
+      {
+        "q": "Having a trip to Sapa at this time of year is wonderful.",
+        "o": "It is"
+      },
+      {
+        "q": "It’s possible that we will have robot pets in the future.",
+        "o": "We"
+      },
+      {
+        "q": "You should reuse those plastic bottles.",
+        "o": "Don’t"
+      },
+      {
+        "q": "Don’t litter or the environment will be polluted.",
+        "o": "If"
+      },
+      {
+        "q": "I suggest not buying products made from elephant tusks.",
+        "o": "We"
+      },
+      {
+        "q": "Hurry up or you will be late for the performance.",
+        "o": "If you don’t"
+      },
+      {
+        "q": "Bring a flashlight to see at night.",
+        "o": "Bring a flashlight so"
+      },
+      {
+        "q": "The Nile is longer than any other rivers in the world.",
+        "o": "The Nile is"
+      },
+      {
+        "q": "The average temperature in Sydney is 18.3&deg;C and the average temperature in Toronto is 7.4&deg;C.",
+        "o": "Toronto is"
+      },
+      {
+        "q": "It’s impossible to take photos in the museum.",
+        "o": "You"
+      },
+      {
+        "q": "Because it is cold in the campsite at night, we should bring along some sleeping bags.",
+        "o": "It"
       },
     ],
   },
@@ -545,49 +623,68 @@ const test = [
     idx: 'VII',
     questions: [
       {
-        q: ['pretty', 'easy', 'friendly', 'exciting'],
+        "q": ["the environment", "recycle", "to", "plastic bags", "protect", "should", "We", "newspapers", "and"]
       },
       {
-        q: ['direction', 'useful', 'hospital', 'garden'],
+        "q": ["throw", "clothes.", "away", "Don't", "old", "Give", "them", "your", "friends", "to"]
       },
       {
-        q: ['police', 'office', 'between', 'hotel'],
+        "q": ["will", "If", "rains,", "I", "at", "stay", "home", "it"]
       },
       {
-        q: ['charity', 'comedy', 'fantastic', 'general'],
+        "q": ["are", "If", "they", "will", "not", "visit", "they", "busy,", "tower", "Big Ben"]
       },
       {
-        q: ['community', 'wildlife', 'comedy', 'charity'],
+        "q": ["very", "Astronauts’ lives", "on", "are", "a", "space station", "different"]
       },
       {
-        q: ['horror', 'fantastic', 'funny', 'awful'],
+        "q": ["sleeping bag", "You", "bring", "a", "should", "so", "you", "get", "don’t", "at night", "cold"]
       },
       {
-        q: ['hospital', 'library', 'charity', 'apartment'],
+        "q": ["lots of", "Vietnam", "There", "natural wonders", "in", "are"]
       },
       {
-        q: ['remove', 'donate', 'protect', 'visit'],
+        "q": ["that", "They", "mountain", "climb", "shouldn’t", "dangerous"]
       },
       {
-        q: ['police', 'station', 'library', 'hospital'],
+        "q": ["likes", "My mother", "watch", "very much", "dramas", "to"]
       },
       {
-        q: ['charity', 'hospital', 'library', 'recycle'],
+        "q": ["next", "The police station", "to", "is", "the train station"]
       },
       {
-        q: ['fantastic', 'comedy', 'general', 'powerful'],
+        "q": ["up", "Pick", "and", "your", "school", "trash", "near", "house"]
       },
       {
-        q: ['charity', 'hospital', 'restaurant', 'museum'],
+        "q": ["movie", "There", "a", "on", "science fiction", "Channel 3", "was", "yesterday"]
       },
       {
-        q: ['action', 'drama', 'cleanup', 'begin'],
+        "q": ["Tourists", "local", "cultural", "activities", "can", "join", "many", "and", "food", "enjoy"]
       },
       {
-        q: ['awful', 'scary', 'boring', 'arrive'],
+        "q": ["save", "Ride", "the", "a", "environment", "bike", "to", "school", "to"]
       },
+      {
+        "q": ["when", "Don’t", "shopping", "use", "go", "plastic", "bags", "you"]
+      },
+      {
+        "q": ["I", "is", "think", "more", "Jakarta", "polluted", "than", "London"]
+      },
+      {
+        "q": ["I", "love", "in the countryside", "life", "as", "it", "is", "than", "in big cities", "more peaceful"]
+      },
+      {
+        "q": ["If", "not interested", "museums,", "in", "will", "Eiffel Tower", "visit", "you", "are", "we"]
+      },
+      {
+        "q": ["will", "The appliances in house", "solar energy", "run on"]
+      },
+      {
+        "q": ["because", "waste electricity", "leave the lights on", "should not", "they", "You", "all night"]
+      }
     ],
   },
+
 ];
 
 const idx_1 = test.find((data) => data.idx === 'I');

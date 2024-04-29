@@ -6,14 +6,11 @@ const renderQuests = () => {
   const quets = test.map((item, index) => {
     const quest = idx_4.questions[item];
     return `
-      <div class="pb-3 lh-base fs-5 d-flex flex-row flex-wrap">
-        <div class="w-100"><span style="padding-right: 5px">${
-          index + 1
-        }. </span>${quest.q}</div>
-        <div>&#8680; ${
-          quest.o
-        } __________________________________________________</div>
-      </div>      
+      <div class="pb-3 lh-sm fs-5 row">
+        <div style="width: 30px">${index + 1}.</div>
+        <div style="white-space: pre-line" class="col-9">${quest.q}</div>
+        <div class="col-2 fw-bold">(${quest.o})</div>
+      </div>
     `;
   });
 
@@ -22,7 +19,7 @@ const renderQuests = () => {
 
 const render4 = `
   <p class="fw-bold fs-4 text-decoration-underline">
-    IV. Rewrite the following sentences without changing the meaning: 
+    IV. Use the correct tense or form of the verbs in parentheses. 
   </p>
   ${renderQuests()}
 `;
