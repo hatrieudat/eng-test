@@ -20,7 +20,7 @@ const renderQuests = () => {
 
 const render7 = `
   <p class="fw-bold fs-4 text-decoration-underline">
-    V. Arrange these words or phases into their correct orders:
+    VII. Arrange these words or phases into their correct orders:
   </p>
   ${renderQuests()}
 `;
