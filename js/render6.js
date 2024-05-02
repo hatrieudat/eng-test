@@ -2,7 +2,7 @@ import { idx_6 } from './midterm.js';
 import { generateUniqueRandomNumbers } from './utils.js';
 
 const renderQuests = () => {
-  const test = generateUniqueRandomNumbers(0, idx_6.questions.length - 1, 6);
+  const test = generateUniqueRandomNumbers(0, idx_6.questions.length - 1, 10);
   const quets = test.map((item, index) => {
     const quest = idx_6.questions[item];
     return `
