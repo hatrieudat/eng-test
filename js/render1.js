@@ -9,7 +9,7 @@ const changeFont = (text, pos) => {
   if (checkDiphthongs(diph)) {
     arr.splice(pos, 2, arr[pos] + arr[pos + 1]);
   }
-  arr[pos] = `<span class="text-decoration-underline">${arr[pos]}</span>`;
+  arr[pos] = `<u class="text-decoration-underline">${arr[pos]}</u>`;
   return arr.join('');
 };
 
