@@ -1,7 +1,16 @@
 // import test from '../assets/sample.json';
 import { generateUniqueRandomNumbers, fetchPart } from './utils.js';
 
-const idx = fetchPart(1);
+let idx;
+
+(async () => {
+    try {
+        idx = await fetchPart(1);
+        console.log(idx);;        
+    } catch (error) {
+        console.error(error);        
+    }
+})
 
 const renderOptions = (alphabets, quest, ans) => {
     const options = alphabets.map((item, index) => {
