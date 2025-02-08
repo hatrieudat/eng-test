@@ -147,7 +147,7 @@ const renderQuests = () => {
       `;
     });
   
-    return quets.join(' ');
+    return quests.join(' ');
 }
 
 const render = `
