@@ -39,5 +39,4 @@ const render = `
 `
 console.log(idx);
 
-// document.getElementById('idx-1').insertAdjacentHTML('beforeend', render);
-document.getElementById('idx-1').innerHTML(render);
+document.getElementById('idx-1').insertAdjacentHTML('beforeend', render);
