@@ -1,5 +1,5 @@
 // import test from '../assets/sample.json';
-import { generateUniqueRandomNumbers } from './utils';
+import { generateUniqueRandomNumbers } from './utils.js';
 
 const idx = fetch('assets/sample.json')
                 .then(response => response.json())
