@@ -17,8 +17,8 @@ const renderOptions = (alphabets, quest, ans) => {
   };
 
 const renderQuests = () => {
-    const test = generateUniqueRandomNumbers(0, idx_2.questions.length - 1, 5);
-    const quets = test.map((item, index) => {
+    const test = generateUniqueRandomNumbers(0, idx.content.length - 1, 5);
+    const quests = test.map((item, index) => {
       const quest = idx.content[item];
       const ans = generateUniqueRandomNumbers(0, 3, 4);
       const alphabets = ['A', 'B', 'C', 'D'];
