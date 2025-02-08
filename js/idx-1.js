@@ -39,6 +39,7 @@ const render = `
     </p>
     ${renderQuests}
 `
-console.log(render);
+console.log(idx);
 
-document.getElementById('idx-1').insertAdjacentHTML('beforeend', render);
+// document.getElementById('idx-1').insertAdjacentHTML('beforeend', render);
+document.getElementById('idx-1').insertHTML(render);
