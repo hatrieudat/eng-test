@@ -126,7 +126,7 @@ const renderOptions = (alphabets, quest, ans) => {
     const options = alphabets.map((item, index) => {
       return `
         <div class="col">
-          ${item}. ${quest.q[ans[index]]}
+          ${item}. ${quest[ans[index]]}
         </div>
       `;
     });
