@@ -1,9 +1,7 @@
 // import test from '../assets/sample.json';
-import { generateUniqueRandomNumbers } from './utils.js';
+import { generateUniqueRandomNumbers, fetchPart } from './utils.js';
 
-const idx = fetch('assets/sample.json')
-                .then(response => response.json())
-                .then(data => data[0]);
+const idx = fetchPart(1);
 
 const renderOptions = (alphabets, quest, ans) => {
     const options = alphabets.map((item, index) => {
