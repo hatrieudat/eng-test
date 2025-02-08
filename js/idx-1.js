@@ -5,7 +5,7 @@ const idx = fetch('assets/sample.json')
                 .then(response => response.json())
                 .then(data => data[0]);
 
-console.log(idx);
+console.log("idx: ",idx);
 
 const renderOptions = (alphabets, quest, ans) => {
     const options = alphabets.map((item, index) => {
