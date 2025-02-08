@@ -140,7 +140,7 @@ const renderQuests = () => {
       const ans = generateUniqueRandomNumbers(0, 3, 4);
       const alphabets = ['A', 'B', 'C', 'D'];
       return `
-        <div class="pb-3 lh-sm fs-5 row" key=${dix.content[item].key}>
+        <div class="pb-3 lh-sm fs-5 row" key=${idx.content[item].key}>
           <div class="col-1">${index + 1}. </div>
           ${renderOptions(alphabets, quest, ans)}
         </div>
