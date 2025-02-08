@@ -134,7 +134,7 @@ const renderOptions = (alphabets, quest, ans) => {
   };
 
 const renderQuests = () => {
-    const test = generateUniqueRandomNumbers(0, idx.content.length - 1, idx.content.length);
+    const test = generateUniqueRandomNumbers(0, idx.content.length - 1, 5);
     const quests = test.map((item, index) => {
       const quest = idx.content[item].quest;
       const ans = generateUniqueRandomNumbers(0, 3, 4);
