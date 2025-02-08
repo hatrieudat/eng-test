@@ -1,4 +1,4 @@
-import { generateUniqueRandomNumbers, fetchPart } from './utils.js';
+import { generateUniqueRandomNumbers } from './utils.js';
 
 const idx = {
     "id": 1,
