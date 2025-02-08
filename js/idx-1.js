@@ -5,8 +5,6 @@ const idx = fetch('assets/sample.json')
                 .then(response => response.json())
                 .then(data => data[0]);
 
-console.log("idx: ",idx);
-
 const renderOptions = (alphabets, quest, ans) => {
     const options = alphabets.map((item, index) => {
       return `
@@ -41,6 +39,6 @@ const render = `
     </p>
     ${renderQuests}
 `
+console.log(render);
 
-const idx1 = document.getElementById('idx-1');
-idx1.insertAdjacentHTML('beforeend', render);
+document.getElementById('idx-1').insertAdjacentHTML('beforeend', render);
