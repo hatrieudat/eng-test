@@ -1,0 +1,204 @@
+[
+  {
+    "id": 1,
+    "title": "Choose the word whose underlined part is pronounced differently.",
+    "content": [
+      {
+        "key": 1,
+        "quest":  ["<u>a</u>nnoyed ", "b<u>a</u>lloon", "p<u>a</u>ssport ", "<u>a</u>broad "],
+        "ans": ["Phát âm 'a'", ["annoyed /əˈnɔɪd/", "balloon /bəˈluːn/", "passport /ˈpɑːs.pɔːt/", "abroad /əˈbɔːd/"], "Phần gạch chân của đáp án passport phát âm là /ɑː/, phần gạch chân của các đáp án còn lại phát âm là /ə/.", "passport"]
+      },
+      {
+        "key": 2,
+        "quest":  ["bus<u>es</u>", "bicycl<u>es</u>", "cloth<u>es</u>", "rul<u>es</u>"],
+        "ans": ["Phát âm 'es'", ["buses /ˈbʌs.ɪz/", "bicycles /ˈbaɪ.sɪ.klz/", "clothes /kloʊðz/", "rules /ruːlz/"], "Phần gạch chân của đáp án buses phát âm là /ɪz/, phần gạch chân của các đáp án còn lại phát âm là /z/.", "buses"]
+      },
+      {
+        "key": 3,
+        "quest": ["bef<u>o</u>re", "rep<u>o</u>rt", "homew<u>o</u>rk", "unif<u>o</u>rm"],
+        "ans": ["Phát âm 'o'", ["before /bɪˈfɔːr/", "report /rɪˈpɔːt/", "homework /ˈhəʊm.wɜːk/", "uniform /ˈjuː.nɪ.fɔːm/"], "Phần gạch chân của đáp án homework phát âm là /ɜː/, phần gạch chân của các đáp án còn lại phát âm là /ɔː/.", "homework"]
+      },
+      {
+        "key": 4,
+        "quest": ["s<u>u</u>bway", "l<u>u</u>ggage", "p<u>u</u>blic", "s<u>u</u>pport"],
+        "ans": ["Phát âm 'u'", ["subway /ˈsʌb.weɪ/", "luggage /ˈlʌɡ.ɪdʒ/", "public /ˈpʌb.lɪk/", "support /səˈpɔːt/"], "Phần gạch chân của đáp án support phát âm là /ə/, phần gạch chân của các đáp án còn lại phát âm là /ʌ/.", "support"]
+      },
+      {
+        "key": 5,
+        "quest": ["l<u>i</u>ghtning", "d<u>i</u>nner", "Chr<u>i</u>stmas", "v<u>i</u>sit"],
+        "ans": ["Phát âm 'i'", ["lightning /ˈlaɪt.nɪŋ/", "dinner /ˈdɪn.ər/", "Christmas /ˈkrɪs.məs/", "visit /ˈvɪz.ɪt/"], "Phần gạch chân của đáp án lightning phát âm là /aɪ/, phần gạch chân của các đáp án còn lại phát âm là /ɪ/.", "lightning"]
+      },
+      {
+        "key": 6,
+        "quest": ["excit<u>ed</u>", "annoy<u>ed</u>", "pleas<u>ed</u>", "surpris<u>ed</u>"],
+        "ans": ["Phát âm 'ed'", ["excited /ɪkˈsaɪ.tɪd/", "annoyed /əˈnɔɪd/", "pleased /pliːzd/", "surprised /səˈpraɪzd/"], "Phần gạch chân của đáp án excited phát âm là /id/, phần gạch chân của các đáp án còn lại phát âm là /d/.", "excited"]
+      },
+      {
+        "key": 7,
+        "quest": ["backpack<u>s</u>", "ticket<u>s</u>", "custom<u>s</u>", "passport<u>s</u>"],
+        "ans": ["Phát âm 's'", ["backpacks /ˈbæk.pæks/", "tickets /ˈtɪk.ɪts/", "customs /ˈkʌs.təmz/", "passports /ˈpɑːs.pɔːts/"], "Phần gạch chân của đáp án customs phát âm là /z/, phần gạch chân của các đáp án còn lại phát âm là /s/.", "customs"]
+      },
+      {
+        "key": 8,
+        "quest": ["Itali<u>an</u>", "Brazili<u>an</u>", "Australi<u>an</u>", "Egypti<u>an</u>"],
+        "ans": ["Phát âm 'ian'", ["Italian /ɪˈtæl.jən/", "Brazilian /brəˈzɪl.jən/", "Australian /ɒsˈtreɪ.li.ən/", "Egyptian /iˈdʒɪp.ʃən/"], "Phần gạch chân của đáp án Egyptian phát âm là /ən/, phần gạch chân của các đáp án còn lại phát âm là /jən/.", "Egyptian"]
+      },
+      {
+        "key": 9,
+        "quest": ["surpris<u>ed</u>", "annoy<u>ed</u>", "pleas<u>ed</u>", "pass<u>ed</u>"],
+        "ans": ["Phát âm 'ed'", ["surprised /səˈpraɪzd/", "annoyed /əˈnɔɪd/", "pleased /pliːzd/", "passed /pɑːst/"], "Phần gạch chân của đáp án passed phát âm là /t/, phần gạch chân của các đáp án còn lại phát âm là /d/.", "passed"]
+      },
+      {
+        "key": 10,
+        "quest": ["st<u>u</u>dy", "T<u>u</u>esday", "S<u>u</u>nday", "b<u>u</u>nch"],
+        "ans": ["Phát âm 'u'", ["study /ˈstʌd.i/", "Tuesday /ˈtʃuːz.deɪ/", "Sunday /ˈsʌn.deɪ/", "bunch /bʌntʃ/"], "Phần gạch chân của đáp án Tuesday phát âm là /uː/, phần gạch chân của các đáp án còn lại phát âm là /ʌ/.", "Tuesday"]
+      },
+      {
+        "key": 11,
+        "quest": ["be<u>c</u>ause", "<u>c</u>ustoms", "suit<u>c</u>ase", "<u>c</u>ity"],
+        "ans": ["Phát âm 'c'", ["because /bɪˈkəz/", "customs /ˈkʌs.təmz/", "suitcase /ˈsuːt.keɪs/", "city /ˈsɪt.i/"], "Phần gạch chân của đáp án city phát âm là /s/, phần gạch chân của các đáp án còn lại phát âm là /k/.", "city"]
+      },
+      {
+        "key": 12,
+        "quest": ["<u>s</u>ure", "<u>s</u>treetcar", "<u>s</u>team", "<u>s</u>mall"],
+        "ans": ["Phát âm 's'", ["sure /ʃɔːr/", "streetcar /ˈstriːt.kɑːr/", "steam /stiːm/", "small /smɔːl/"], "Phần gạch chân của đáp án sure phát âm là /ʃ/, phần gạch chân của các đáp án còn lại phát âm là /s/.", "sure"]
+      },
+      {
+        "key": 13,
+        "quest": ["fir<u>st</u>", "<u>st</u>ation", "li<u>st</u>en", "fa<u>st</u>er"],
+        "ans": ["Phát âm 'st'", ["first /ˈfɜːst/", "station /ˈsteɪ.ʃən/", "listen /ˈlɪs.ən/", "faster /fɑːstər/"], "Phần gạch chân của đáp án listen là âm câm, phần gạch chân của các đáp án còn lại phát âm là /st/.", "listen"]
+      },
+      {
+        "key": 14,
+        "quest": ["sh<u>i</u>p", "b<u>i</u>cycle", "d<u>i</u>sh", "tax<u>i</u>"],
+        "ans": ["Phát âm 'i'", ["ship /ʃɪp/", "bicycle /ˈbaɪ.sɪ.kəl/", "dish /dɪʃ/", "taxi /ˈtæk.si/"], "Phần gạch chân của đáp án bicycle phát âm là /ai/, phần gạch chân của các đáp án còn lại phát âm là /i/.", "bicycle"]
+      },
+      {
+        "key": 15,
+        "quest": ["h<u>o</u>le", "c<u>o</u>ld", "m<u>o</u>torbike", "b<u>o</u>wl"],
+        "ans": ["Phát âm 'o'", ["hole /həʊl/", "cold /kəʊld/", "motorbike /ˈməʊ.tə.baɪk/", "bowl /bəʊl/"], "Phần gạch chân của đáp án motorbike phát âm là /ə/, phần gạch chân của các đáp án còn lại phát âm là /əʊ/.", "motorbike"]
+      },
+      {
+        "key": 16,
+        "quest": ["h<u>a</u>nd", "tr<u>a</u>ffic", "c<u>a</u>ncel", "p<u>a</u>rk"],
+        "ans": ["Phát âm 'a'", ["hand /hænd/", "traffic /ˈtræf.ɪk/", "cancel /ˈkæn.səl/", "park /pɑːk/"], "Phần gạch chân của đáp án park phát âm là /ɑː/, phần gạch chân của các đáp án còn lại phát âm là /æ/.", "park"]
+      },
+      {
+        "key": 17,
+        "quest": ["s<u>u</u>bject", "tr<u>u</u>ck", "amb<u>u</u>lance", "l<u>u</u>ck"],
+        "ans": ["Phát âm 'u'", ["subject /ˈsʌb.dʒekt/", "truck /trʌk/", "ambulance /ˈæm.bjə.ləns/", "luck /lʌk/"], "Phần gạch chân của đáp án ambulance phát âm là /jə/, phần gạch chân của các đáp án còn lại phát âm là /ʌ/.", "ambulance"]
+      },
+      {
+        "key": 18,
+        "quest": ["ill<u>e</u>gal", "h<u>e</u>licopter", "n<u>e</u>st", "d<u>e</u>ntist"],
+        "ans": ["Phát âm 'e'", ["illegal /ɪˈliː.ɡəl/", "helicopter /ˈhel.ɪˌkɒp.tər/", "nest /nest/", "dentist /ˈden.tɪst/"], "Phần gạch chân của đáp án illegal phát âm là /iː/, phần gạch chân của các đáp án còn lại phát âm là /e/.", "illegal"]
+      },
+      {
+        "key": 19,
+        "quest": ["r<u>a</u>ilway", "l<u>a</u>w", "m<u>a</u>y", "tod<u>a</u>y"],
+        "ans": ["Phát âm 'a'", ["railway /ˈreɪl.weɪ/", "law /lɔː/", "may /meɪ/", "today /təˈdeɪ/"], "Phần gạch chân của đáp án law phát âm là /ɔː/, phần gạch chân của các đáp án còn lại phát âm là /eɪ/.", "law"]
+      },
+      {
+        "key": 20,
+        "quest": ["a<u>c</u>cident", "coo<u>k</u>ies", "traffi<u>c</u>", "ca<u>r</u>ry"],
+        "ans": ["Phát âm 'c'", ["accident /ˈæk.sɪ.dənt/", "cookies /ˈkʊk.i/", "traffic /ˈtræf.ɪk/", "carry /ˈkær.i/"], "Phần gạch chân của đáp án accident phát âm là /s/, phần gạch chân của các đáp án còn lại phát âm là /k/.", "accident"]
+      },
+      {
+        "key": 21,
+        "quest": ["enter<u>ed</u>", "lov<u>ed</u>", "kick<u>ed</u>", "discover<u>ed</u>"],
+        "ans": ["Phát âm 'ed'", ["entered /ˈen.tərd/", "loved /lʌvd/", "kicked /kɪkt/", "discovered /dɪˈskʌv.ərd/"], "Phần gạch chân của đáp án kicked phát âm là /t/, phần gạch chân của các đáp án còn lại phát âm là /d/.", "kicked"]
+      },
+      {
+        "key": 22,
+        "quest": ["mov<u>i</u>ng", "romant<u>i</u>c", "exc<u>i</u>ting", "frighten<u>i</u>ng"],
+        "ans": ["Phát âm 'i'", ["moving /ˈmuː.vɪŋ/", "romantic /rəʊˈmæn.tɪk/", "exciting /ɪkˈsaɪ.tɪŋ/", "frightening /ˈfraɪ.tən.ɪŋ/"], "Phần gạch chân của đáp án frightening phát âm là /i/, phần gạch chân của các đáp án còn lại phát âm là /aɪ/.", "frightening"]
+      },
+      {
+        "key": 23,
+        "quest": ["m<u>i</u>nute ", "d<u>i</u>fficult", "Chr<u>i</u>stmas", "del<u>i</u>ght"],
+        "ans": ["Phát âm 'i'", ["minute /ˈmɪn.ɪt/", "difficult /ˈdɪf.ɪ.kəlt/", "Christmas /ˈkrɪs.məs/", "delight /dɪˈlaɪt/"], "Phần gạch chân của đáp án delight phát âm là /aɪ/, phần gạch chân của các đáp án còn lại phát âm là /i/.", "frightening"]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Choose the word that has a different stressed syllable from the rest.",
+    "content": [
+      {
+        "key": 1,
+        "quest":  ["suitcase ", "although", "ticket ", "subway "],
+        "ans": ["Trọng âm của từ có hai âm tiết", ["suitcase /ˈsuːt.keɪs/", "although /ɔːlˈðəʊ/", "ticket /ˈtɪk.ɪt/", "subway /ˈsʌb.weɪ/"], "Trọng âm của đáp án 'although' rơi vào âm tiết thứ hai, trọng âm của các đáp án còn lại rơi vào âm tiết thứ nhất.", "although"]
+      },
+      {
+        "key": 2,
+        "quest": ["decorate", "educate", "uniform", "discover"],
+        "ans": ["Trọng âm của từ có ba âm tiết", ["decorate /ˈdek.ə.reɪt/", "educate /ˈedʒ.u.keɪt/", "uniform /ˈjuː.nɪ.fɔːm/", "discover /dɪˈskʌv.ər/"], "Trọng âm của đáp án 'discover' rơi vào âm tiết thứ hai, trọng âm của các đáp án còn lại rơi vào âm tiết thứ nhất.", "discover"]
+      },
+      {
+        "key": 3,
+        "quest": ["classmate", "finish", "essay", "abroad"],
+        "ans": ["Trọng âm", ["classmate /ˈklɑːs.meɪt/", "finish /ˈfɪn.ɪʃ/", "essay /ˈes.eɪ/", "abroad /əˈbrɔːd/"], "Phương án 'abroad' có trọng âm 2, các phương án còn lại có trọng âm 1.", "abroad"]
+      },
+      {
+        "key": 4,
+        "quest": ["environment", "transportation", "reliable", "convenient"],
+        "ans": ["Trọng âm", ["environment /ɪnˈvaɪ.rən.mənt/", "transportation /ˌtræn.spɔːˈteɪ.ʃən/", "reliable /rɪˈlaɪ.ə.bəl/", "convenient /kənˈviː.ni.ənt/"], "Phương án 'transportation' có trọng âm 3, các phương án còn lại có trọng âm 2.", "transportation"]
+      },
+      {
+        "key": 5,
+        "quest": ["difficult", "however", "positive", "chemistry"],
+        "ans": ["Trọng âm", ["difficult /ˈdɪf.ɪ.kəlt/", "however /ˌhaʊˈev.ər/", "positive /ˈpɒz.ə.tɪv/", "chemistry /ˈkem.ɪ.stri/"], "Phương án 'however' có trọng âm 2, các phương án còn lại có trọng âm 1.", "however"]
+      },
+      {
+        "key": 6,
+        "quest": ["around", "boarding", "baggage", "local"],
+        "ans": ["Trọng âm", ["around /əˈraʊnd/", "boarding /ˈbɔː.dɪŋ/", "baggage /ˈbæɡ.ɪdʒ/", "local /ˈləʊ.kəl/"], "Phương án 'around' có trọng âm 2, các phương án còn lại có trọng âm 1.", "around"]
+      },
+      {
+        "key": 7,
+        "quest": ["demon", "balloon", "special", "welcome"],
+        "ans": ["Trọng âm", ["demon /ˈdiː.mən/", "balloon /bəˈluːn/", "special /ˈspeʃ.əl/", "welcome /ˈwel.kəm/"], "Phương án 'balloon' có trọng âm 2, các phương án còn lại có trọng âm 1.", "balloon"]
+      },
+      {
+        "key": 8,
+        "quest": ["family", "festival", "introduce", "celebrate"],
+        "ans": ["Trọng âm", ["family /ˈfæm.əl.i/", "festival /ˈfes.tɪ.vəl/", "introduce /ˌɪn.trəˈdʒuːs/", "celebrate /ˈsel.ə.breɪt/"], "Phương án 'introduce' có trọng âm 3, các phương án còn lại có trọng âm 1.", "introduce"]
+      },
+      {
+      "key": 9,
+      "quest": ["geography", "computer", "magazine", "fantastic"],
+      "ans": ["Trọng âm", ["geography /dʒiˈɒɡ.rə.fi/", "computer /kəmˈpjuː.tər/", "magazine /ˌmæɡ.əˈziːn/", "fantastic /fænˈtæs.tɪk/"], "Phương án 'magazine' có trọng âm 3, các phương án còn lại có trọng âm 2.", "magazine"]
+      },
+      {
+        "key": 10,
+        "quest": ["discuss", "traffic", "water", "winter"],
+        "ans": ["Trọng âm", ["discuss /dɪˈskʌs/", "traffic /ˈtræf.ɪk/", "water /ˈwɔː.tər/", "winter /ˈwɪn.tər/"], "Phương án 'discuss' có trọng âm 2, các phương án còn lại có trọng âm 1.", "discuss"]
+      },
+      {
+        "key": 11,
+        "quest": ["prepare", "relax", "produce", "summer"],
+        "ans": ["Trọng âm", ["prepare /prɪˈpeər/", "relax /rɪˈlæks/", "produce /prəˈdʒuːs/", "summer /ˈsʌm.ər/"], "Phương án 'summer' có trọng âm 1, các phương án còn lại có trọng âm 2.", "summer"]
+      },
+      {
+        "key": 12,
+        "quest": ["science", "goggles", "review", "cannon"],
+        "ans": ["Trọng âm", ["science /ˈsaɪ.əns/", "goggles /ˈɡɒɡ.əlz/", "review /rɪˈvjuː/", "cannon /ˈkæn.ən/"], "Phương án 'review' có trọng âm 2, các phương án còn lại có trọng âm 1.", "review"]
+      },
+      {
+        "key": 13,
+        "quest": ["poster", "tuna", "relic", "surround"],
+        "ans": ["Trọng âm", ["poster /ˈpəʊ.stər/", "tuna /ˈtʃuː.nə/", "relic /ˈrel.ɪk/", "surround /səˈraʊnd/"], "Phương án 'surround' có trọng âm 2, các phương án còn lại có trọng âm 1.", "surround"]
+      },
+      {
+        "key": 14,
+        "quest": ["construct", "horror", "pancake", "sausage"],
+        "ans": ["Trọng âm", ["construct /kənˈstrʌkt/", "horror /ˈhɒr.ər/", "pancake /ˈpæn.keɪk/", "sausage /ˈsɒs.ɪdʒ/"], "Phương án 'construct' có trọng âm 2, các phương án còn lại có trọng âm 1.", "construct"]
+      },
+      {
+        "key": 15,
+        "quest": ["highlight", "regard", "critic", "circle"],
+        "ans": ["Trọng âm", ["highlight /ˈhaɪ.laɪt/", "regard /rɪˈɡɑːd/", "critic /ˈkrɪt.ɪk/", "circle /ˈsɜː.kəl/"], "Phương án 'regard' có trọng âm 2, các phương án còn lại có trọng âm 1.", "regard"]
+      }
+    ]
+  }
+]
