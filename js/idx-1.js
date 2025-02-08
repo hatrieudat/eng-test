@@ -154,7 +154,7 @@ const render = `
     <p class="fw-bold fs-4 text-decoration-underline">
         I. ${idx.title}
     </p>
-    ${renderQuests}
+    ${renderQuests()}
 `
 
 document.getElementById('idx-1').insertAdjacentHTML('beforeend', render);
