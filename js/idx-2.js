@@ -237,7 +237,7 @@ const renderOptions = (alphabets, quest, ans) => {
   const options = alphabets.map((item, index) => {
     return `
         <div class="col">
-          ${item}. ${quest[ans[index]]}
+          <span class="fw-bold">${item}.</span> ${quest[ans[index]]}
         </div>
       `;
   });
@@ -247,7 +247,7 @@ const renderOptions = (alphabets, quest, ans) => {
 const renderAnswer = (ans) => {
   return `
     <ul class="list-group">
-      <li class="list-group-item">${ans[0]}</li>
+      <li class="list-group-item fw-bold">${ans[0]}</li>
       <li class="list-group-item">
         <ul class="list-group">
           <li class="list-group-item">${ans[1][0]}</li>
@@ -256,8 +256,8 @@ const renderAnswer = (ans) => {
           <li class="list-group-item">${ans[1][3]}</li>
         </ul>
       </li>
-      <li class="list-group-item">Giải thích: ${ans[2]}</li>
-      <li class="list-group-item">Đáp án: ${ans[3]}</li>
+      <li class="list-group-item"><span class="fw-bold">Giải thích:</span> ${ans[2]}</li>
+      <li class="list-group-item"><span class="fw-bold">Đáp án:</span> ${ans[3]}</li>
     </ul>
   `;  
 };
@@ -271,7 +271,7 @@ const renderQuests = () => {
     return `
         <div class="pb-3 lh-sm fs-5 row" key=${idx.content[item].key}>
           <div class="row pb-1">
-            <div class="col-1">${index + 1}. </div>
+            <div class="col-1 fw-bold">${index + 1}. </div>
             ${renderOptions(alphabets, quest, ans)}
           </div>
           <div class="row d-none">
