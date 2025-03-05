@@ -1,0 +1,5 @@
+# Ignore .idx folder
+.idx/
+
+# Ignore .vscode folder
+.vscode/
