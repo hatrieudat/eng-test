@@ -1555,19 +1555,24 @@ const renderOptions = (alphabets, quest, ans) => {
   return options.join(" ");
 };
 
+const renderExplains = (ans) => {
+    const explains = ans.map(item => {
+        return `
+            <li class="list-group-item">${item}</li>
+        `;
+    });
+    return explains.join(" ");
+}
+
 const renderAnswer = (ans) => {
   return `
       <ul class="list-group py-2">
         <li class="list-group-item fw-bold"><span class="fw-bold">Kiến thức: </span>${ans[0]}</li>
         <li class="list-group-item">
           <ul class="list-group">
-            <li class="list-group-item">${ans[1][0]}</li>
-            <li class="list-group-item">${ans[1][1]}</li>
-            <li class="list-group-item">${ans[1][2]}</li>
-            <li class="list-group-item">${ans[1][3]}</li>
+            ${renderExplains(ans[1])}
           </ul>
         </li>
-        <li class="list-group-item">${ans[1][4]}</li>
         <li class="list-group-item"><span class="fw-bold">Dịch:</span> ${ans[2]}</li>
         <li class="list-group-item"><span class="fw-bold">Đáp án:</span> ${ans[3]}</li>
       </ul>
