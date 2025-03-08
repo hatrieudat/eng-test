@@ -545,7 +545,7 @@ const renderAnswer = (ans) => {
 };
 
 const renderQuests = () => {
-  const test = generateUniqueRandomNumbers(0, idx.content.length - 1, 5);
+  const test = generateUniqueRandomNumbers(0, idx.content.length - 1, 10);
   const quests = test.map((item, index) => {
     const quest = idx.content[item].quest;
     return `
