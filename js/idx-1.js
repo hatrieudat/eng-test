@@ -431,7 +431,7 @@ const idx = {
           "delight /dɪˈlaɪt/",
         ],
         "Phần gạch chân của đáp án delight phát âm là /aɪ/, phần gạch chân của các đáp án còn lại phát âm là /i/.",
-        "frightening",
+        "delight",
       ],
     },
   ],
@@ -496,3 +496,4 @@ const render = `
 `;
 
 document.getElementById("idx-1").insertAdjacentHTML("beforeend", render);
+
